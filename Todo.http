@@ -1,0 +1,13 @@
+### Add Todo
+POST http://localhost:7071/api/todos
+Content-Type: application/json
+
+{
+  "username": "someone",
+  "description": "Prepare for demo"
+}
+
+### List Todos
+GET http://localhost:7071/api/todos
+
+###
