@@ -14,7 +14,7 @@ public class AddTodoFunction {
       @HttpTrigger(
           name = "req",
           methods = {HttpMethod.POST},
-          authLevel = AuthorizationLevel.ANONYMOUS,
+          authLevel = AuthorizationLevel.FUNCTION,
           route = "todos")
           HttpRequestMessage<Optional<Todo>> request,
       final ExecutionContext context) {

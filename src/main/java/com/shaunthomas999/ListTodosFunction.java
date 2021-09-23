@@ -19,7 +19,7 @@ public class ListTodosFunction {
       @HttpTrigger(
           name = "req",
           methods = {HttpMethod.GET},
-          authLevel = AuthorizationLevel.ANONYMOUS,
+          authLevel = AuthorizationLevel.FUNCTION,
           route = "todos")
           HttpRequestMessage<Optional<String>> request,
       final ExecutionContext context) {
