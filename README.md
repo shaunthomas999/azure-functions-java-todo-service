@@ -11,7 +11,7 @@
 
 * Refer to `Todo.http` file
 
-## MongoDB default data
+## MongoDB default data (manually inserted for demo purpose)
 
 ```
 {
